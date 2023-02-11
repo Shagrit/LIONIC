@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
 a {
   text-decoration: none;
   color: #000;
@@ -18,7 +20,7 @@ img {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .text-center {
