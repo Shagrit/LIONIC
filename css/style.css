@@ -34,6 +34,7 @@ html {
 /**header--------------------------------------------------------------------------------------------------*/
 .header {
   height: 110px;
+  border-bottom: 1px solid #e4e4e4;
 }
 .container {
   max-width:  1200px;
@@ -135,7 +136,7 @@ html {
 
 /**section-do---------------------------------------------------------------------------------------------*/
 .section-do {
-  border-bottom: 1px solid #787878;
+  border-bottom: 1px solid #e4e4e4;
 }
 .section-heading {
   font-size: 36px;
@@ -156,13 +157,18 @@ html {
   flex: 1 1 25%;
   padding: 60px 30px;
   text-align: center;
-  border: #787878 1px solid;
+  border: 1px solid #e4e4e4;
   border-radius: 5px;
+}
+.section-do-item:hover {
+  border: 3px solid #3172b9;
+  background-color: #4086d3;
+  color: #fff;
 }
 .section-do-item:not(:last-child) {
   margin: 0px 30px 0px 0px;
 }
-.section-do-icon {
+.section-do-icon:hover {
 }
 .section-do-heading {
   margin-top: 30px;
@@ -178,16 +184,19 @@ html {
 
 /**section-reviews---------------------------------------------------------------------------------------------*/
 .section-reviews {
-  border-bottom: 1px solid #787878;
+  border-bottom: 1px solid #e4e4e4;
   padding: 100px 0px 160px 0px;
 }
 .section-reviews-list {
   display: flex;
 }
 .section-reviews-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 1 1 50%;
   padding: 50px 30px;
-  border: #787878 1px solid;
+  border: #e4e4e4 1px solid;
   border-radius: 5px;
 }
 .section-reviews-item:not(:last-child) {
@@ -200,7 +209,7 @@ html {
 .section-reviews-user {
   display: flex;
   align-items: center;
-  border-top: 1px solid #787878;
+  border-top: 1px solid #e4e4e4;
   padding-top: 30px;
 }
 .section-reviews-user-avatar {
@@ -217,14 +226,14 @@ html {
   font-weight: 600;
 }
 .section-reviews-user-discription {
-  opacity: 0.3;
+  color: #c0c0c0;
 }
 /**section-one---------------------------------------------------------------------------------------------*/
 
 /**section-contacts---------------------------------------------------------------------------------------------*/
 .section-contacts {
   padding: 65px 0px 160px 0px;
-  border-bottom: 1px solid #787878;
+  border-bottom: 1px solid #e4e4e4;
 }
 .section-contacts-list {
   display: flex;
