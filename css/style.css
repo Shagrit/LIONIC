@@ -301,11 +301,14 @@ html {
   margin-left: 20px;
 }
 .footer-right {
+  display: flex;
+  align-items: center;
 }
 .footer-nav {
 }
 .footer-nav-list {
   display: flex;
+  margin-right: 51px;
 }
 .footer-nav-item {
 }
@@ -315,26 +318,35 @@ html {
 .footer-nav-link {
 }
 .footer-social-list {
+  display: flex;
+  align-items: center;
 }
-.footer-social-item {
+.footer-social-item:not(:last-child) {
+  margin-right: 31px;
 }
 .footer-social-link {
 }
-/*.footer-social-icon {
+.footer-social-icon {
   display: block;
-  height: 18px;
   background-repeat: no-repeat;
-  background-position: center left;
-  background-size: auto 100%;
+  background-position: center center;
+  background-size: contain;
   background-color: transparent;
 }
 .footer-social-icon-twitter {
+  width: 18px;
+  height: 17px;
   background-image: url('/img/icon/Twitter.svg');
 }
 .footer-social-icon-linkedin {
+  width: 20px;
+  height: 20px;
+  transform: translateY(-2px);
   background-image: url('/img/icon/Linkedin.svg');
 }
 .footer-social-icon-email {
+  width: 24px;
+  height: 19px;
   background-image: url('/img/icon/Email.svg');
-}*/
+}
 /**footer---------------------------------------------------------------------------------------------*/
