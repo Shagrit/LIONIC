@@ -168,8 +168,6 @@ html {
 .section-do-item:not(:last-child) {
   margin: 0px 30px 0px 0px;
 }
-.section-do-icon:hover {
-}
 .section-do-heading {
   margin-top: 30px;
   display: block;
@@ -219,8 +217,6 @@ html {
   border-radius: 50%;
   margin-right: 15px;
 }
-.section-reviews-user-info {
-}
 .section-reviews-user-name {
   font-size: 17px;
   font-weight: 600;
@@ -265,15 +261,48 @@ html {
   background-image: url('/img/icon/mail.png');
   background-size: auto 20px;
 }
-.section-contacts-heading {
-}
 .section-contacts-info {
   line-height: 1.5;
   margin-top: 45px;
 }
-.section-contacts-link {
-}
 /**section-contacts---------------------------------------------------------------------------------------------*/
+
+/**section-form---------------------------------------------------------------------------------------------*/
+.section-started {
+  border-bottom: 1px solid #e4e4e4;
+}
+.section-started-container {
+  padding: 120px 55px 118px 55px;
+}
+.section-started-form {
+  margin-top: 60px;
+}
+.started-form {
+  font-weight: 300;
+  border: 1px solid;
+  border-radius: 30px;
+  border-color: #dadada;
+  width: 250px;
+  padding: 25px 30px;
+}
+.started-form:not(:last-child) {
+  margin-right: 19px;
+}
+.input::placeholder {
+  color: #9a9a9a;
+}
+.started-form-btn {
+  border-radius: 30px;
+  width: 230px;
+  padding: 25px 30px;
+  text-transform: uppercase;
+  background-color: #3172b9;
+  color: #fff;
+  border: none;
+  margin-left: 32px;
+}
+
+/**section-form---------------------------------------------------------------------------------------------*/
 
 /**footer---------------------------------------------------------------------------------------------*/
 .footer {
@@ -291,10 +320,6 @@ html {
   display: flex;
   align-items: center;
 }
-.footer-logo {
-}
-.footer-logo-img {
-}
 .footer-copyright {
   font-size: 12px;
   color: #787878;
@@ -304,18 +329,12 @@ html {
   display: flex;
   align-items: center;
 }
-.footer-nav {
-}
 .footer-nav-list {
   display: flex;
   margin-right: 51px;
 }
-.footer-nav-item {
-}
 .footer-nav-item:not(:last-child) {
   margin-right: 30px;
-}
-.footer-nav-link {
 }
 .footer-social-list {
   display: flex;
@@ -323,8 +342,6 @@ html {
 }
 .footer-social-item:not(:last-child) {
   margin-right: 31px;
-}
-.footer-social-link {
 }
 .footer-social-icon {
   display: block;
