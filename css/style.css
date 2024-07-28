@@ -91,13 +91,12 @@ html {
 
 /**section-one---------------------------------------------------------------------------------------------*/
 .one-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/bg/Base.jpg);
   padding: 120px 15px 130px 15px;
   margin-bottom: 200px;
-}
-.section-one {
-  background-image: url('../img/bg/Base.jpg');
-  background-position: right center;
-  background-repeat: no-repeat;
 }
 .one-content {
   max-width: 500px;
