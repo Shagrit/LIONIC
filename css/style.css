@@ -95,7 +95,7 @@ html {
   margin-bottom: 200px;
 }
 .section-one {
-  background-image: url('/img/bg/Base.jpg');
+  background-image: url('../img/bg/Base.jpg');
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -133,7 +133,7 @@ html {
   width: 13px;
   height: 17px;
   margin-right: 10px;
-  background-image: url('/img/icon/Shield-icon.svg');
+  background-image: url('../img/icon/Shield-icon.svg');
   background-size: contain;
 }
 /**section-one---------------------------------------------------------------------------------------------*/
@@ -269,13 +269,13 @@ html {
   background-color: transparent;
 }
 .section-contacts-icon-gps {
-  background-image: url('/img/icon/gps.png');
+  background-image: url('../img/icon/gps.png');
 }
 .section-contacts-icon-phone {
-  background-image: url('/img/icon/phone.png');
+  background-image: url('../img/icon/phone.png');
 }
 .section-contacts-icon-mail {
-  background-image: url('/img/icon/mail.png');
+  background-image: url('../img/icon/mail.png');
   background-size: auto 20px;
 }
 .section-contacts-info {
@@ -370,17 +370,17 @@ html {
 .footer-social-icon-twitter {
   width: 18px;
   height: 17px;
-  background-image: url('/img/icon/Twitter.svg');
+  background-image: url('../img/icon/Twitter.svg');
 }
 .footer-social-icon-linkedin {
   width: 20px;
   height: 20px;
   transform: translateY(-2px);
-  background-image: url('/img/icon/Linkedin.svg');
+  background-image: url('../img/icon/Linkedin.svg');
 }
 .footer-social-icon-email {
   width: 24px;
   height: 19px;
-  background-image: url('/img/icon/Email.svg');
+  background-image: url('../img/icon/Email.svg');
 }
 /**footer---------------------------------------------------------------------------------------------*/
